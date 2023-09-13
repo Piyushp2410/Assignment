@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <form>
+            <fieldset>
+                <h4>Step 1: Your details</h4>
+                <ol>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="First and last name" required>
+                    </li>
+                    <li>
+                        <label for="Email">Email</label>
+                        <input type="text" name="email" placeholder="example@domain.com" required>
+                    </li>
+                    <li>
+                        <label for="Phone">Phone</label>
+                        <input type="text" name="name" placeholder="Eg. +447500000000" required>
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <h4>Step 2: Delivery address</h4>
+                <ol>
+                    <li>
+                        <label for="address">Address</label>
+                        <textarea name="address" placeholder=""></textarea>
+                    </li>
+                    <li>
+                        <label for="postcode">Postcode</label>
+                        <input type="text" name="email" placeholder="" required>
+                    </li>
+                    <li>
+                        <label for="country">country</label>
+                        <input type="text" name="name" placeholder="" required>
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <h4> Step 3: Card details</h4>
+                <ol>
+                    <li>
+                        <div class="Card">
+                            <legend>Card type</legend>
+                            <ol style="float: left; margin: 0; padding: 0;">
+                                <li>
+                                    <input type="radio" name="cardtype" placeholder="">
+                                    <label for=visa>VISA</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="cardtype" placeholder="">
+                                    <label for=amex>AmEx</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="cardtype" placeholder="">
+                                    <label for=mastercard>Mastercard</label>
+                                </li>
+                            </ol>
+                        </div>
+                    </li>
+                    <li>
+                        <label>Card number</label>
+                        <input type="number" name="cardnumber" placeholder="">
+                    </li>
+                    <li>
+                        <label>Security code</label>
+                        <input type="text" name="Name on card" placeholder="">
+                    </li>
+                    <li>
+                        <label>Name on card</label>
+                        <input type="text" name="Name on card" placeholder="">
+                    </li>
+                </ol>
+            </fieldset>
+            <fieldset>
+                <button type="submit">Buy it!</button>
+            </fieldset>
+        </form>
+</body>
+
+</html>

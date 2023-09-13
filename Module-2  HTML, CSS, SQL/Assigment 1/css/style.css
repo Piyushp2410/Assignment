@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    padding: 20px;
+}
+
+form {
+    background: rgb(142, 204, 50);
+    border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 550px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+form fieldset {
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+form fieldset:last-of-type {
+    margin-bottom: 0;
+}
+
+
+form fieldset legend {
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+    padding-bottom: 0;
+}
+
+form ol li {
+    background: #b9cf6a;
+    background: rgba(255, 255, 255, .3);
+    border-color: #e3ebc3;
+    border-color: rgba(255, 255, 255,);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    line-height: 30px;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+}
+
+form ol ol li {
+    background: none;
+    border: none;
+    float: left;
+}
+
+form label {
+    float: left;
+    font-size: 13px;
+    width: 110px;
+    
+}
+
+form fieldset fieldset label {
+    background: none no-repeat left 50%;
+    line-height: 20px;
+    padding: 0 0 0 30px;
+    width: auto;
+}
+
+form input:not([type=submit]):focus,
+form textarea:focus {
+    background: white;
+}
+
+form button {
+	background: #384313;
+	border: none;
+	border-radius: 20px;
+	border-radius: 20px;
+	border-radius: 20px;
+	border-radius: 20px;
+	color: white;
+	display: block;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px black;
+	text-transform: uppercase;
+}
+form button:hover {
+	background: #1e2506;
+	cursor: pointer;
+}
